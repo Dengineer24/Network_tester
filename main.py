@@ -21,4 +21,4 @@ server_results = test.results.ping
 # using function to make notification
 notification(title  = 'Network Tester',
        subtitle = f'Download: {download_speed}',
-       message  = f'Upload: {upload_speed} Sever: {server_results}')
+       message  = f'Upload: {upload_speed} Server: {server_results}')
